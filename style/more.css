@@ -1,0 +1,19 @@
+/*this file will ahve the styling for the gallery and the cost of the products.
+THIS IS THE PRODUCTS.CSS FILE */
+
+/*CONTRAST BETWEEN BACKGROUND AND FOREGROUND */
+.image-float {
+    float: left; /* Float the figure to the left */
+    margin-right: 20px; /* Add margin to the right to create space between the image and text */
+}
+
+/* Optional: Style the caption */
+figcaption {
+    font-style: italic;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.about-text{
+    line-height: 3em;
+}

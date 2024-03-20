@@ -1,0 +1,44 @@
+/*
+ * Student Name: Daniel Awotundun
+ * Student ID:  041085669
+ * Course: CST8117 - Cross-Platform Web Design
+ * Semester: 1
+ * Assignment: 1
+ * Date Submitted:2024-02-09
+ */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+
+/*class 1 with font 1 and font-size smaller */
+.font1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: smaller;
+}
+
+/*class 2 with font 2 and font-size extra-large */
+.font2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+}
+  
+ 

@@ -1,0 +1,97 @@
+/*THis file will have the header, headings, content paragraphs, footer, body etc.*/
+/*
+ * Student Name: 
+ * Student ID: 
+ * Course: CST8117 - Cross-Platform Web Design
+ * Semester: 
+ * Assignment: 
+ * Date Submitted:  
+ */
+
+body, html {
+    background-color: #808080;
+}
+
+/* Resetting default margin and padding for better alignment */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the card container */
+.card {
+    width: calc(60%);
+    margin-top: 8px;
+    height: auto;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 100px auto 100px auto;
+}
+
+/* Styling the card content */
+.card-content {
+    padding: 20px;
+}
+
+/* Styling the card title */
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+   
+}
+
+/* Styling the card text */
+.card-text {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Styling the card button */
+.card-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust spacing between cards */
+    margin-right: 8px;
+    
+}
+
+.card-image {
+    position: relative;
+    width: calc(40%);
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.card-image img{  /*this is mandatory for any image project */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This will make the image cover the container, cropping as needed */
+    border-radius: 8px;
+}
+
+.skip{
+    color: blue;
+}
+

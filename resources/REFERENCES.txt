@@ -1,0 +1,7 @@
+					REFERENCES
+
+1.	https://www.w3schools.com/howto/howto_css_product_card.asp
+	2024-02-08
+	"How TO -  Product card
+
+2.      I used MidJourney for the Images and VSCODE for my editing.
