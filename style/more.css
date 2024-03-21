@@ -17,3 +17,31 @@ figcaption {
 .about-text{
     line-height: 3em;
 }
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.container{
+    display: flex;
+}
+.dropdown{
+    margin-right: 10rem;
+}
+

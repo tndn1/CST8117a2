@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     
+    <link rel="stylesheet" href="./style/more.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="./style/main.css">
@@ -42,6 +43,24 @@
     <div class="card">
         <div class="card-content">
             <Strong> Collection </Strong>
+            <div class="container"><!--Learning flexbox is essential for any good web design-->
+                <div class="dropdown">
+                    <button class="dropbtn">Order By</button>
+                    <div class="dropdown-content">
+                        <a href="#">price high -> low</a>
+                        <a href="#">price low -> high</a>
+                    </div>
+                </div>
+                <div class="serach-container">
+                    <input type="text" placeholder="filter...">
+                    <button type="submit">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span> 
+                    </button>
+                </div> 
+            </div>
+            <hr>
             <div class="gallery">
                 <div class="card-image">
                     <figure>
