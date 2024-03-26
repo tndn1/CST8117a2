@@ -95,3 +95,9 @@ body, html {
     color: blue;
 }
 
+figure:hover{
+    filter: grayscale(40%);
+}
+
+
+
