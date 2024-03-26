@@ -99,5 +99,31 @@ figure:hover{
     filter: grayscale(40%);
 }
 
+@media screen and (orientation: landscape) {
+
+    .card{
+        background-color: #f1f1f1;
+    }
+    
+}
+
+@media screen and (orientation: portrait) {
+    
+    .card{
+        background-color: #f2f2f2;
+    }
+}
+
+@media screen and (max-width: 767px){/* for mobile */
+    .card{
+        background-color: #f3f3f3;
+    }
+}
+
+@media screen and (min-width: 768px){/*for desktop */
+    .card{
+        background-color: #f4f4f4;
+    }
+}
 
 
